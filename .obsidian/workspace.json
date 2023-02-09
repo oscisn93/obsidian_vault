@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5f46398b4e93263a",
+        "id": "5ce96f6423b3e0c6",
         "type": "tabs",
         "children": [
           {
-            "id": "7863068ace34627e",
+            "id": "e1bbf440b700f6cb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture 3.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -65,13 +61,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5d82c95cd0bc89bc",
@@ -87,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Lecture 3.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,13 +138,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9f23e5d435c1a2b2",
+  "active": "e1bbf440b700f6cb",
   "lastOpenFiles": [
-    "Chapter 2 Ethics.md",
-    "Lecture 3.md",
-    "Computer Communications/Internet Concepts.md",
+    "Focal_Docs/Scheduler.md",
+    "cpsc_490/America's Surveillance State.md",
+    "cpsc_490/Research Topic Report and Presentation.md",
+    "cpsc_471/Internet Concepts.md",
+    "cpsc_455/Lecture 2 -.md",
+    "cpsc_455/I.web_concepts.md",
+    "cpsc_335/I.intro_to_algorithms.md",
+    "cpsc_335/II.data_structures.md",
     "Amazon Web Collaborative.md",
-    "Web Security/Lecture 1 - Web Concepts.md",
-    "Web Security/Lecture 2 -.md"
+    "cpsc_315/ethical_theories.md"
   ]
 }
