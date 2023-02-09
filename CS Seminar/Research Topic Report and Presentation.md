@@ -1,0 +1,1 @@
+Advancements in digital governance, specifically surveillance systems and the use of AI in order to aide and enhance the systems deployed by governments in order to enforce policy and control the flow of information in order to detect law breaking and other activities with a particular focus on the current capabilities and limitations of these systems.
