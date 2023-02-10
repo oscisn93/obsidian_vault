@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpsc_490/research_topic.md",
+                "file": "cpsc_455/II.data_formats.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b85710d3a51094e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cpsc_455/III.intro_to_javascript.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpsc_490/research_topic.md",
+                "file": "cpsc_455/III.intro_to_javascript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpsc_490/research_topic.md",
+                "file": "cpsc_455/III.intro_to_javascript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpsc_490/research_topic.md"
+                "file": "cpsc_455/III.intro_to_javascript.md"
               }
             }
           }
@@ -146,9 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1bbf440b700f6cb",
+  "active": "b85710d3a51094e9",
   "lastOpenFiles": [
     "cpsc_455/II.data_formats.md",
+    "cpsc_490/research_topic.md",
     "cpsc_490/americas_surveillance_state.md",
     "Focal_Docs/Scheduler.md",
     "cpsc_490/America's Surveillance State.md",
@@ -156,7 +170,6 @@
     "cpsc_471/Internet Concepts.md",
     "cpsc_455/Lecture 2 -.md",
     "cpsc_455/I.web_concepts.md",
-    "cpsc_335/I.intro_to_algorithms.md",
-    "cpsc_335/II.data_structures.md"
+    "cpsc_335/I.intro_to_algorithms.md"
   ]
 }
