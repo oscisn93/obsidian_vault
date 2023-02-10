@@ -24,4 +24,4 @@ NSA lies about what they have and what they're doing it. Claims they archive it,
 
 FISA court authorized collections court orders.
 
-Project PRISM, collection of any and all eletronic communications in the USA
+Project PRISM, collection of any and all eletronic communications in the USA. 

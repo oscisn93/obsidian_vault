@@ -11,8 +11,12 @@
             "id": "e1bbf440b700f6cb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "cpsc_490/research_topic.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "cpsc_490/research_topic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "cpsc_490/research_topic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "cpsc_490/research_topic.md"
+              }
             }
           }
         ]
@@ -140,6 +148,8 @@
   },
   "active": "e1bbf440b700f6cb",
   "lastOpenFiles": [
+    "cpsc_455/II.data_formats.md",
+    "cpsc_490/americas_surveillance_state.md",
     "Focal_Docs/Scheduler.md",
     "cpsc_490/America's Surveillance State.md",
     "cpsc_490/Research Topic Report and Presentation.md",
@@ -147,8 +157,6 @@
     "cpsc_455/Lecture 2 -.md",
     "cpsc_455/I.web_concepts.md",
     "cpsc_335/I.intro_to_algorithms.md",
-    "cpsc_335/II.data_structures.md",
-    "Amazon Web Collaborative.md",
-    "cpsc_315/ethical_theories.md"
+    "cpsc_335/II.data_structures.md"
   ]
 }
