@@ -33,3 +33,26 @@ Tool for XPath: `https://codebeautify.org/Xpath-Tester`
 - More efficient to parse
 
 JSON has no way to natively constrain the structure of the data.
+
+```json
+{
+	"key": "value",
+	"key_2": "value_2",
+	"nested_struct": {
+		"array_key": [2,5,8,35],
+		"number_key": 7.78,
+		"another_number_key": 12,
+	},
+	"array_objects_key": [
+		{
+			"key": "value"	
+		},
+		{
+			"key": "value"
+		},
+		{
+			"key": "value"
+		}
+	]
+}
+```

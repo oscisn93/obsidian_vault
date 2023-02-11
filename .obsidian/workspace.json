@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpsc_455/II.data_formats.md",
+                "file": "cpsc_471/internet_concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpsc_455/III.intro_to_javascript.md",
+                "file": "cpsc_471/chapter_2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5d82c95cd0bc89bc",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpsc_455/III.intro_to_javascript.md",
+                "file": "cpsc_471/internet_concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpsc_455/III.intro_to_javascript.md",
+                "file": "cpsc_471/internet_concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpsc_455/III.intro_to_javascript.md"
+                "file": "cpsc_471/internet_concepts.md"
               }
             }
           }
@@ -159,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b85710d3a51094e9",
+  "active": "e1bbf440b700f6cb",
   "lastOpenFiles": [
-    "cpsc_455/II.data_formats.md",
-    "cpsc_490/research_topic.md",
     "cpsc_490/americas_surveillance_state.md",
+    "cpsc_455/II.data_formats.md",
+    "cpsc_455/III.intro_to_javascript.md",
+    "cpsc_490/research_topic.md",
+    "cpsc_471/chapter_2.md",
+    "cpsc_471/internet_concepts.md",
     "Focal_Docs/Scheduler.md",
     "cpsc_490/America's Surveillance State.md",
     "cpsc_490/Research Topic Report and Presentation.md",
-    "cpsc_471/Internet Concepts.md",
-    "cpsc_455/Lecture 2 -.md",
-    "cpsc_455/I.web_concepts.md",
-    "cpsc_335/I.intro_to_algorithms.md"
+    "cpsc_471/Internet Concepts.md"
   ]
 }
