@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5ce96f6423b3e0c6",
+        "id": "23b3ce0e30b70abe",
         "type": "tabs",
         "children": [
           {
-            "id": "e1bbf440b700f6cb",
+            "id": "54d07f19e95dd01f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpsc_471/internet_concepts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b85710d3a51094e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cpsc_471/chapter_2.md",
+                "file": "focal_docs/scheduler.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5d82c95cd0bc89bc",
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpsc_471/internet_concepts.md",
+                "file": "focal_docs/scheduler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpsc_471/internet_concepts.md",
+                "file": "focal_docs/scheduler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpsc_471/internet_concepts.md"
+                "file": "focal_docs/scheduler.md"
               }
             }
           }
@@ -159,14 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1bbf440b700f6cb",
+  "active": "54d07f19e95dd01f",
   "lastOpenFiles": [
-    "cpsc_490/americas_surveillance_state.md",
-    "cpsc_455/II.data_formats.md",
-    "cpsc_455/III.intro_to_javascript.md",
-    "cpsc_490/research_topic.md",
-    "cpsc_471/chapter_2.md",
-    "cpsc_471/internet_concepts.md",
+    "spring_23/cpsc_471/chapter_2.md",
+    "spring_23/cpsc_471/internet_concepts.md",
+    "spring_23/cpsc_490/americas_surveillance_state.md",
+    "spring_23/cpsc_455/II.data_formats.md",
+    "spring_23/cpsc_455/III.intro_to_javascript.md",
+    "spring_23/cpsc_490/research_topic.md",
     "Focal_Docs/Scheduler.md",
     "cpsc_490/America's Surveillance State.md",
     "cpsc_490/Research Topic Report and Presentation.md",
