@@ -36,6 +36,8 @@ On the receivng side the signal is processed in reverse order (layers)
 
 **2/10 Chapter One Quiz, in-class, bring laptop**
 
+
+
 # Chapter 2
 **Application Layer**:
 
