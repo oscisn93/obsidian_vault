@@ -1,0 +1,2 @@
+Provides a logical layer between applications running on different hosts, TCP/UDP. network layer is communication layer betewwn hosts while transport connects processes. two types: sender and receiver. Multiplexing refers to the process of mapping each message to the process it is meant to go to by adding a header and demultiplexing involves using those headers to direct the message to the correct port/process
+Because tcp has to maintain the connnection there it must maintain a four-tuple consisting of both IPs and both ports.
