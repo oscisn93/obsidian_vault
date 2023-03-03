@@ -4,22 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "33fe46605663b9ad",
+        "id": "ad8318f748db2024",
         "type": "tabs",
         "children": [
           {
-            "id": "6c8f904794555c50",
+            "id": "77047f036853058d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "focal_docs/scheduler.md",
+                "file": "spring_23/cpsc_455/III.intro_to_javascript.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "bca6bbf566352712",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "spring_23/cpsc_455/Assignment 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cfc7352fc2d6cb1a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "spring_23/cpsc_471/CPSC 471-06 Assignment 1.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "focal_docs/scheduler.md",
+                "file": "spring_23/cpsc_471/CPSC 471-06 Assignment 1.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "focal_docs/scheduler.md",
+                "file": "spring_23/cpsc_471/CPSC 471-06 Assignment 1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "focal_docs/scheduler.md"
+                "file": "spring_23/cpsc_471/CPSC 471-06 Assignment 1.pdf"
               }
             }
           }
@@ -146,6 +169,7 @@
       "command-palette:Open command palette": false
     }
   },
+<<<<<<< Updated upstream
   "active": "6c8f904794555c50",
   "lastOpenFiles": [
     "spring_23/cpsc_455/III.intro_to_javascript.md",
@@ -160,5 +184,19 @@
     "spring_23/cpsc_335/II.data_structures.md",
     "spring_23/cpsc_335/I.intro_to_algorithms.md",
     "spring_23/cpsc_315/ethical_theories.md"
+=======
+  "active": "cfc7352fc2d6cb1a",
+  "lastOpenFiles": [
+    "spring_23/cpsc_471/Assignment 1.md",
+    "spring_23/cpsc_455/Assignment 1.md",
+    "spring_23/cpsc_455/III.intro_to_javascript.md",
+    "spring_23/cpsc_335/III. efficiency_analysis.md",
+    "spring_23/cpsc_335/I.intro_to_algorithms.md",
+    "spring_23/cpsc_335/II.data_structures.md",
+    "spring_23/cpsc_315/ethical_theories.md",
+    "focal_docs/scheduler.md",
+    "spring_23/cpsc_471/chapter_2.md",
+    "spring_23/cpsc_471/internet_concepts.md"
+>>>>>>> Stashed changes
   ]
 }
