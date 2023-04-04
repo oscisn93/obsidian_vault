@@ -11,15 +11,38 @@
             "id": "28f90072603c63ba",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SPRING23/CPSC335/project-3/Project 3.pdf"
+              }
+            }
+          },
+          {
+            "id": "656858d1f4e8db41",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "focal_docs/product_requirements.md",
+                "file": "SPRING23/CPSC335/Quiz 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "162bc6329dfac6a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Workshops/Databases.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "focal_docs/product_requirements.md",
+                "file": "Workshops/Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "focal_docs/product_requirements.md",
+                "file": "Workshops/Databases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "focal_docs/product_requirements.md"
+                "file": "Workshops/Databases.md"
               }
             }
           }
@@ -146,10 +169,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a85fca0ffd06473c",
+  "active": "162bc6329dfac6a8",
   "lastOpenFiles": [
-    "focal_docs/index.md",
+    "SPRING23/CPSC335/Quiz 3.md",
+    "Workshops/Databases.md",
+    "Workshops",
+    "SPRING23/CPSC335/project-3/Project 3.pdf",
+    "SPRING23/CPSC471/oscarcisneros_p2/oc2.webm",
+    "SPRING23/CPSC335/project-3",
+    "SPRING23/CPSC471/oscarcisneros_p2/oc1.webm",
+    "SPRING23/CPSC471/oscarcisneros_p2/CPSC 471 Assignment #2.pdf",
     "SPRING23/CPSC471/internet_concepts.md",
+    "docker/objects.md",
+    "focal_docs/product_requirements.md",
+    "focal_docs/index.md",
     "SPRING23/CPSC471/chapter_2.md",
     "SPRING23/CPSC471/Transport Layer.md",
     "spring_23/CSPSC471/Assignment 1.md",
