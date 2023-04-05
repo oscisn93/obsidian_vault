@@ -38,8 +38,16 @@ To seed the database you can go about this one of two ways- the hard way or the 
 Now that we have created a database and seeded it , we are ready to run queries against it: That is we need to access the data from a frontend application to display to a user. I've created a simple client application here, that will be requesting task objects from the database and presenting them graphically to the user. To create the endpoint we first create a fucntion that access the database and retrieves the data we need. Prisma has an easy to understand handful of methods for this. We need the findMany method. Once weve written this logic, we need to add the function to an endpoint- in express this is writtena s app.get(path, callback) where the callback is executed when the endpoint is requested.
 
 ```typescript
+import express from "express";
+import cors from "cors";
+
+const app = express();
+
+app.use(cors())
+app.use(json());
+
 app.get('/tasks', async (req,res)=> {
-	const data = await prisma.tasks.findMany();
+	const data = await prisma.tasks.findMany()?;
 	res.send(data);
 })
 ```
