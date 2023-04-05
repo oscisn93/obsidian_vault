@@ -47,8 +47,8 @@ app.use(cors())
 app.use(json());
 
 app.get('/tasks', async (req,res)=> {
-	const data = await prisma.tasks.findMany()?;
-	res.send(data);
+  const data = await prisma.tasks.findMany()?;
+  res.send(data);
 })
 ```
 
