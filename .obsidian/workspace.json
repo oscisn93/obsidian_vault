@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "162bc6329dfac6a8",
+            "id": "6b5a9942f5ef2989",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Workshops/Databases.md",
+                "file": "SPRING23/CPSC335/project-3/Project Summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Workshops/Databases.md",
+                "file": "SPRING23/CPSC335/project-3/Project Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Workshops/Databases.md",
+                "file": "SPRING23/CPSC335/project-3/Project Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Workshops/Databases.md"
+                "file": "SPRING23/CPSC335/project-3/Project Summary.md"
               }
             }
           }
@@ -147,12 +147,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "162bc6329dfac6a8",
+  "active": "6b5a9942f5ef2989",
   "lastOpenFiles": [
-    "SPRING23/CPSC335/Quiz 3.md",
-    "Workshops/Databases.md",
-    "Workshops",
     "SPRING23/CPSC335/project-3/Project 3.pdf",
+    "SPRING23/CPSC335/project-3/Project Summary.md",
+    "Workshops/Databases.md",
+    "SPRING23/CPSC335/Quiz 3.md",
+    "Workshops",
     "SPRING23/CPSC471/oscarcisneros_p2/oc2.webm",
     "SPRING23/CPSC335/project-3",
     "SPRING23/CPSC471/oscarcisneros_p2/oc1.webm",
