@@ -124,15 +124,15 @@ We willl be using PanetScale to create a cloud database. If you have never used 
 [PlanetScale](https://www.planetscale.com)
 You should see something like this:
 
-![[ps.png]]
+![ps](https://user-images.githubusercontent.com/41174627/230751589-0127d714-3167-4809-8864-84a4bd34eb8a.png)
 
 Click on the "Sign up with GitHub" button.
 
-![[ps2.png]]
+![ps2](https://user-images.githubusercontent.com/41174627/230751590-4732f610-9be5-4019-805e-1b0f7bc60ebe.png)
 
 You'll be prompted to check out the features. Feel free to have a look around. Then hit the right arrow until you react the "Creat my first database" button
 
-![[ps3.png]]
+![ps3](https://user-images.githubusercontent.com/41174627/230751592-b89efed0-b839-48cc-8a46-865ee4861ef9.png)
 
 Click it. Give your databse a name, then your database is up and ready to go! Now just connect to it using the instructions in the connect button and push your schema using `prisma db push`. Now you are ready to create enpoints!
 
