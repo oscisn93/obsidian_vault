@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SPRING23/CPSC335/project-3/Project Summary.md",
+                "file": "Workshops/Databases.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SPRING23/CPSC335/project-3/Project Summary.md",
+                "file": "Workshops/Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SPRING23/CPSC335/project-3/Project Summary.md",
+                "file": "Workshops/Databases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SPRING23/CPSC335/project-3/Project Summary.md"
+                "file": "Workshops/Databases.md"
               }
             }
           }
@@ -149,8 +149,11 @@
   },
   "active": "6b5a9942f5ef2989",
   "lastOpenFiles": [
-    "SPRING23/CPSC335/project-3/Project 3.pdf",
+    "ps3.png",
+    "ps2.png",
+    "ps.png",
     "SPRING23/CPSC335/project-3/Project Summary.md",
+    "SPRING23/CPSC335/project-3/Project 3.pdf",
     "Workshops/Databases.md",
     "SPRING23/CPSC335/Quiz 3.md",
     "Workshops",

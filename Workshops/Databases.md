@@ -32,6 +32,34 @@ To seed the database you can go about this one of two ways- the hard way or the 
 
 # Connecting to the DB
 
+The best way to connect to a database with Prisma is to use a .env file for your database url. declare a variable in your .env file like this `DATABASE_URL="https://aws.planetscaledb.usernamepassword.com"`
+then the line in your prisma file `env("DATABASE_URL")` will automatically be read as the value of that variable. If you use Planet Scale you will need to edit your given url to include your actual email. Programatically, you would then use a prisma client to connect to your database with.
+ In SvelteKit 
+```typescript
+import { PrismaClient } from "@prisma/client";
+
+const db = new PrismaClient();
+
+export default db;
+```
+
+In Next.js
+
+```typescript
+import { PrismaClient } from '@prisma/client'
+
+const globalForPrisma = global as unknown as { 
+  prisma: PrismaClient | undefined 
+}
+
+export const prisma =
+  globalForPrisma.prisma ??
+  new PrismaClient({
+    log: ['query'],
+  })
+
+if (process.env.NODE_ENV !== 'production') globalForPrisma.prisma = prisma
+```
 
 # Creating Endpoints
 
@@ -51,4 +79,60 @@ app.get('/tasks', async (req,res)=> {
   res.send(data);
 })
 ```
+
+You can also create serverless endpoints if you are using Next.js or SvelteKit. This is because these frameworks come with server infrastructure, so you can just make direct queries against your database.
+
+This is an example of such a function in Next.js:
+
+```typescript
+import { prisma } from "@/server/db";
+import { NextRequest, NextResponse } from "next/server";
+
+export async function POST(request: NextRequest) {
+  const json = await request.json();
+  console.log(json);
+  await prisma.comments.create({
+    data: {
+      author: json["author"],
+      comment: json["comment"],
+      blogPostId: parseInt(json["blogPostId"]),
+    },
+  });
+  return NextResponse.json(json);
+}
+```
+
+This function uses the prisma connection from you server to create a new comment object
+
+And this is an example in SvelteKit:
+
+```typescript
+export const load = (async () => {
+  await db.$connect();
+  const data = await db.posts.findMany();
+  await db.$disconnect();
+  return {
+    posts: data,
+  };
+}) satisfies PageServerLoad;
+```
+
+This function opens a connection to the database, queries the posts table and returns all rows as an array of Post objects. As you can see prosma makes it much easier by abstractin away alot of the details involved.
+
+# DB on the Cloud
+We willl be using PanetScale to create a cloud database. If you have never used PlanetScale before, it's easy to get started- all you need is a GitHub account. First go to 
+[PlanetScale](https://www.planetscale.com)
+You should see something like this:
+
+![[ps.png]]
+
+Click on the "Sign up with GitHub" button.
+
+![[ps2.png]]
+
+You'll be prompted to check out the features. Feel free to have a look around. Then hit the right arrow until you react the "Creat my first database" button
+
+![[ps3.png]]
+
+Click it. Give your databse a name, then your database is up and ready to go! Now just connect to it using the instructions in the connect button and push your schema using `prisma db push`. Now you are ready to create enpoints!
 
